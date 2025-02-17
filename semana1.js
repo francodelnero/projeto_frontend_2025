@@ -1,15 +1,19 @@
-/*  
-tudo isso daqui
-serão comentários
-de várias linhas até chegar
-no próximo asterísco 
-*/
+// aula 1 introdução ao java
+function saudacao(){
+  console.log("Olá, isso é uma saudação");
+}
 
-//ou isso daqui também, mas somente uma linha
+saudacao();
 
-let nome = "Gustavo";
-const idade = 3;
-console.log("Olá, mundo!");
-alert("Testando o Alert!");
+let num1 = 10;
+let num2 = 5;
 
+let soma = num1 + num1;
+let subtracao = num1 - num2;
+let multiplicacao = num1 * num2;
+let divisao = num1 / num2;
 
+console.log("Soma deu:",soma);
+console.log("subtracao deu:",subtracao);
+console.log("multiplicacao deu:",multiplicacao);
+console.log("divisao deu:",divisao);
