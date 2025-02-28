@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--link rel="stylesheet" href="assets/css/style_aula_tres.css"-->
+    <title>AUla 4 ESPECIFICIDADE</title>
+    
+    <style>
+     
+     /*0.0.0.1*/ 
+    p {
+      color: red;
+    }
+    
+    
+    /*0.0.1.1*/
+    .nova-cor{
+      color: cornflowerblue;
+    }
+    
+    
+    /*0.1.0.1*/
+    #nova-cor-id,
+    #nova-cor-id-2
+    {
+      color: darkgrey;
+    }
+    
+    
+    
+      
+    </style>
+    
+</head>
+
+<body>
+  
+  <p>Texto 1.</p>
+  <p class="nova-cor">Texto 2.</p>
+  <p class="nova-cor">Texto 3.</p>
+  
+  <!--/*0.1.1.1*/-->
+  <p id="nova-cor-id" class="nova-cor">Texto 4.</p>
+  
+  <!--/*1.1.1.1*/-->
+  <p id="nova-cor-id-2" class="nova-cor" style="color: darkgreen;">Texto 5.</p>
+  
+</body>
+
+</html>
